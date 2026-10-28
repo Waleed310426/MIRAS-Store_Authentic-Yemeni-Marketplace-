@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>أسئلة وأجوبة مناقشة مشروع ووردبريس - مِراس</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            line-height: 1.8;
+            color: #333;
+            margin: 40px;
+            direction: rtl;
+            text-align: right;
+        }
+        h1 {
+            text-align: center;
+            color: #1a5c40;
+            border-bottom: 2px solid #d4af37;
+            padding-bottom: 10px;
+        }
+        .question {
+            color: #004085;
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .answer {
+            color: #212529;
+            font-size: 18px;
+            margin-bottom: 25px;
+            padding-right: 15px;
+            border-right: 4px solid #d4af37;
+        }
+        .important {
+            background-color: #fff3cd;
+            padding: 5px;
+            font-weight: bold;
+        }
+        .code {
+            direction: ltr;
+            text-align: left;
+            background-color: #f8f9fa;
+            padding: 5px 10px;
+            border: 1px solid #ddd;
+            display: inline-block;
+            font-family: Consolas, monospace;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>📝 ملف التجهيز لمناقشة مشروع ووردبريس النهائي (مِراس - MIRAS)</h1>
+    <p style="text-align:center; font-size: 16px;">تم إعداد هذا الملف ليحتوي على الأسئلة "الخطيرة والعميقة" التي تثبت للدكتورة فهمكم الكامل لكل تفاصيل الموقع برمجياً وتقنياً.</p>
+
+    <!-- Question 1 -->
+    <div class="question">1. ما هو نوع الموقع الذي اخترتموه ولماذا؟ وما هي فئته المستهدفة؟</div>
+    <div class="answer">
+        اخترنا بناء <strong>موقع تجارة إلكترونية (E-Commerce Website)</strong> باستخدام إضافة WooCommerce. <br>
+        الموقع يحمل اسم "مِراس"، والهدف منه بيع المنتجات التراثية والزراعية اليمنية الأصيلة (مثل البن، العسل، العقيق، الحرف اليدوية). الفئة المستهدفة هي الأشخاص المهتمون بالتراث اليمني والمنتجات العضوية الأصيلة داخل وخارج البلاد.
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question">2. (سؤال خطير): لاحظت أنكم لا تستخدمون ثيم جاهز مثل أسترا أو غيره، كيف قمتم ببناء ثيم "مِراس"؟</div>
+    <div class="answer">
+        هذه من أهم ميزات مشروعنا؛ لم نعتمد على ثيم جاهز فقط، بل قمنا ببرمجة <strong>ثيم مستقل (Parent Theme)</strong> خاص بنا.
+        <ul>
+            <li>قمنا بإنشاء ملف <code>style.css</code> لتعريف اسم الثيم (مِراس) وإلغاء ارتباطه بأي ثيم آخر.</li>
+            <li>استخدمنا ملف <code>functions.php</code> لربط ملفات التصميم والسكريبتات الأساسية.</li>
+            <li>والأهم: برمجنا ملف <code>customizer.php</code> لإنشاء <strong>لوحة تحكم مخصصة (Theme Customizer)</strong> بـ 9 أقسام تتيح لنا تغيير ألوان الموقع (الأخضر والذهبي) والخطوط برمجياً مع ميزة المعاينة الحية (Live Preview) قبل الحفظ.</li>
+        </ul>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="question">3. ما هي الصفحات التي تم إنشاؤها في الموقع؟ وكيف تم تنظيم التنقل (Navigation)؟</div>
+    <div class="answer">
+        الموقع يحتوي على أكثر من المتطلب الأساسي (3 صفحات):
+        <ul>
+            <li><strong>الرئيسية (Home):</strong> تعرض الهيرو، المنتجات الرائجة، وميزات المتجر.</li>
+            <li><strong>المتجر (Shop):</strong> صفحة WooCommerce الأساسية لعرض جميع المنتجات.</li>
+            <li><strong>من نحن (About):</strong> تشرح رؤية الموقع وتحتوي على أعضاء الفريق.</li>
+            <li><strong>تواصل معنا (Contact):</strong> تحتوي على خريطة جوجل ونموذج التواصل.</li>
+        </ul>
+        وبالنسبة للتنقل، قمنا ببرمجة (Header) يحتوي على الشعار (Logo)، قائمة التنقل، زر التبديل للوضع الليلي، أيقونة البحث، وأيقونة السلة. والـ (Footer) يحتوي على روابط سريعة وحقوق النشر.
+    </div>
+
+    <!-- Question 4 -->
+    <div class="question">4. ما هي الإضافات (Plugins) الأربعة التي تم استخدامها في المشروع؟ وما هو دور كل منها؟</div>
+    <div class="answer">
+        <ul>
+            <li><strong>WooCommerce:</strong> الإضافة الأساسية لتحويل الموقع لمتجر إلكتروني وإدارة المنتجات والطلبات.</li>
+            <li><strong>Elementor:</strong> منشئ الصفحات الذي استخدمناه لبناء الأقسام المرئية وتنسيق الواجهات (Widgets).</li>
+            <li><strong>Rank Math SEO:</strong> لضبط تحسين محركات البحث، كتابة الوصف التعريفي (Meta Description)، ورفع نسبة الـ SEO.</li>
+            <li><strong>إضافة البحث المتقدم (مثل FiboSearch):</strong> لتوفير ميزة البحث السريع عن المنتجات داخل الهيدر.</li>
+        </ul>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="question">5. كيف قمتم بتضمين خريطة جوجل (Google Map) وأعضاء الفريق (Team Members) حسب متطلبات المشروع؟</div>
+    <div class="answer">
+        قمنا بتلبية متطلبات (Elementor Widgets) بشكل احترافي:
+        <ul>
+            <li><strong>أعضاء الفريق (إلزامي):</strong> في صفحة "من نحن"، استخدمنا عنصر Team Members لعرض فريق العمل (مثل صورتي وصورة زميلي محمد الشريف) مع أسماء الوظائف.</li>
+            <li><strong>خريطة جوجل (Google Map):</strong> في قسم التواصل، استخدمنا عنصر خريطة جوجل وحددنا الموقع الجغرافي للمتجر ليظهر بشكل تفاعلي للعملاء.</li>
+            <li><strong>عناصر أخرى:</strong> استخدمنا أيضاً (Icon List) في ميزات المنتجات، وقسم الدعوة لاتخاذ إجراء (Call-to-Action).</li>
+        </ul>
+    </div>
+
+    <!-- Question 6 -->
+    <div class="question">6. (سؤال برمجي): كيف قمتم بضبط الـ SEO في الموقع؟ وكيف تأكدتم من توافق اللغة العربية؟</div>
+    <div class="answer">
+        لم نكتفِ باستخدام إضافة Rank Math فقط، بل قمنا بتعديلات برمجية متقدمة:
+        <ul>
+            <li><strong>تعديل اللغة برمجياً:</strong> وجدنا أن الموقع يقرأ لغة HTML كـ <span class="code">lang="en-US"</span>، فقمنا بالدخول إلى قاعدة البيانات عبر كود PHP واستخدمنا <span class="code">update_option('WPLANG', 'ar')</span> وإضافة فلتر <span class="code">language_attributes</span> لنجبر الموقع على أن يكون <span class="code">lang="ar" dir="rtl"</span> ليقرأه جوجل كموقع عربي 100%.</li>
+            <li><strong>وسم H1:</strong> قمنا برمجياً بإضافة وسم H1 مخفي بصرياً في الصفحة الرئيسية <span class="code">&lt;h1 class="miras-seo-h1"&gt;</span> يحتوي على اسم الموقع ووصفه ليتعرف عليه جوجل.</li>
+            <li>تأكدنا من وجود (Alt Text) لجميع الصور في الموقع بهدف الوصول (Accessibility).</li>
+        </ul>
+    </div>
+
+    <!-- Question 7 -->
+    <div class="question">7. (سؤال خطير لحل المشاكل): واجهتم مشكلة في ظهور بعض الكلمات باللغة الإنجليزية في المتجر (مثل كلمة Relevance للترتيب)، كيف قمتم بحلها؟</div>
+    <div class="answer">
+        بدلاً من استخدام إضافات ترجمة ثقيلة تبطئ الموقع، قمنا بحلها برمجياً بطريقة احترافية:
+        <br>
+        قمنا بفتح ملف <span class="code">functions.php</span> وأضفنا فلتر <strong>gettext</strong>، وهو فلتر قوي جداً يعترض الكلمات الإنجليزية قبل ظهورها في المتصفح. قمنا بكتابة شرط برمجي: إذا كانت الكلمة هي "Relevance" أو "الملاءمة"، استبدلها فوراً بكلمة "الترتيب الافتراضي". هذا يدل على تحكمنا الكامل في أكواد الموقع وخلفيته.
+    </div>
+
+    <!-- Question 8 -->
+    <div class="question">8. ماذا لو فصل الإنترنت، هل ستختفي صوركم من صفحة (من نحن)؟ كيف تتعاملون مع الروابط الخارجية؟</div>
+    <div class="answer">
+        في البداية كانت إحدى صور فريق العمل (وليد العنسي) مربوطة برابط خارجي من GitHub، وكانت تختفي إذا انقطع الإنترنت.
+        قمنا بحل هذه المشكلة عن طريق تحميل الصورة ورفعها إلى مسار الرفع المحلي في ووردبريس <span class="code">wp-content/uploads</span>، ثم قمنا بكتابة سكريبت يتصل بقاعدة البيانات (جدول wp_posts) ويستبدل الرابط الخارجي بالرابط المحلي. الآن الموقع يعمل بشكل كامل (Offline) كبيئة استضافة محلية (Localhost).
+    </div>
+
+    <!-- Question 9 -->
+    <div class="question">9. كيف تأكدتم من التصميم المتجاوب (Responsive Design)؟ وهل يعمل الموقع على الهاتف بشكل مثالي؟</div>
+    <div class="answer">
+        بالتأكيد، تم بناء الموقع ليكون Mobile-First:
+        <ul>
+            <li>في Elementor، استخدمنا وضع التجاوب (Responsive Mode) لتقليل أحجام الخطوط (Typography) وتغيير البادينج (Padding) خصيصاً لشاشات الموبايل.</li>
+            <li>قائمة التنقل (Header) تتحول برمجياً إلى أيقونة (Hamburger Menu) متجاوبة.</li>
+            <li>المنتجات في صفحة المتجر تتغير من عرض 4 أعمدة في الشاشات الكبيرة إلى عمودين أو عمود واحد في شاشات الهاتف المحمول لضمان وضوح الصور وسهولة القراءة.</li>
+        </ul>
+    </div>
+
+    <!-- Question 10 -->
+    <div class="question">10. ما هي أبرز التحديات التي واجهتكم في هذا المشروع؟ وما هي الدروس المستفادة؟</div>
+    <div class="answer">
+        <strong>التحديات:</strong>
+        <br>
+        - تحويل تصميم جاهز إلى ثيم ووردبريس مستقل وتخصيصه (Customizer) ليتحكم بكل ألوان الموقع برمجياً.
+        <br>
+        - ضبط التوافقية من اليمين لليسار (RTL) لجميع عناصر WooCommerce وحل مشاكل تداخل الـ CSS.
+        <br>
+        <strong>الدروس المستفادة:</strong>
+        <br>
+        - فهمنا المعنى الحقيقي لكيفية عمل ووردبريس في الخلفية (Hooks, Filters, Actions) في ملف functions.php بدلاً من الاعتماد الأعمى على الإضافات.
+        <br>
+        - دمجنا بين التصميم المرئي عبر (Elementor) والبرمجة الخلفية عبر (PHP) لنخرج بمتجر احترافي، متجاوب، ومتوافق مع قواعد محركات البحث (SEO).
+    </div>
+
+</body>
+</html>

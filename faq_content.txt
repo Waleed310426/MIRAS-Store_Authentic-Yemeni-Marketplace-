@@ -1,0 +1,49 @@
+﻿<!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"36px"}}} -->
+<h1 class="wp-block-heading">الأسئلة الشائعة</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"18px"}}} -->
+<p>نجيب على أكثر الأسئلة شيوعاً حول تجربة التسوق في مِراس</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:details {"className":"miras-faq"} -->
+<details class="wp-block-details miras-faq"><summary>كيف يمكنني تتبع طلبي؟</summary>
+<!-- wp:paragraph -->
+<p>يمكنك تتبع طلبك بسهولة من خلال الدخول إلى حسابك في الموقع، ثم الانتقال إلى قسم "طلباتي". ستجد تفاصيل الطلب وحالة الشحن بشكل محدّث لحظياً.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details {"className":"miras-faq"} -->
+<details class="wp-block-details miras-faq"><summary>ما هي طرق الدفع المتاحة؟</summary>
+<!-- wp:paragraph -->
+<p>نوفر عدة طرق دفع آمنة تشمل: بطاقات الائتمان (Visa / MasterCard)، مدى، والدفع عند الاستلام في مناطق محددة. جميع معاملاتنا مشفرة ومؤمنة بالكامل.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details {"className":"miras-faq"} -->
+<details class="wp-block-details miras-faq"><summary>كيف أتأكد من أصالة المنتجات؟</summary>
+<!-- wp:paragraph -->
+<p>كل منتج في مِراس يمر بعملية فحص دقيقة من قبل خبرائنا المتخصصين قبل عرضه للبيع. نرفق شهادة أصالة مع كل قطعة تراثية أو تحفة فنية.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details {"className":"miras-faq"} -->
+<details class="wp-block-details miras-faq"><summary>ما هي سياسة الإرجاع والاستبدال؟</summary>
+<!-- wp:paragraph -->
+<p>نتيح لك إرجاع أي منتج خلال 14 يوماً من تاريخ الاستلام بشرط أن يكون بحالته الأصلية وغير مستخدم. تواصل معنا وسنرشدك خلال عملية الإرجاع بسهولة.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details {"className":"miras-faq"} -->
+<details class="wp-block-details miras-faq"><summary>هل تشحنون خارج المملكة العربية السعودية؟</summary>
+<!-- wp:paragraph -->
+<p>نعم! نشحن إلى جميع دول الخليج العربي والعالم العربي. تكاليف الشحن تختلف حسب الوجهة وتظهر عند إتمام الطلب.</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->
+
+<!-- wp:details {"className":"miras-faq"} -->
+<details class="wp-block-details miras-faq"><summary>كيف يمكنني التواصل مع البائع؟</summary>
+<!-- wp:paragraph -->
+<p>بإمكانك التواصل مباشرة مع البائع من خلال صفحة المنتج عبر زر "تواصل مع البائع"، أو التواصل مع فريق دعم مِراس عبر صفحة "تواصل معنا".</p>
+<!-- /wp:paragraph --></details>
+<!-- /wp:details -->

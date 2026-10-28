@@ -1,0 +1,21 @@
+﻿# LocalWP / Server specific
+logs/
+conf/
+*.log
+.envrc
+app/.envrc
+
+# WordPress uploads (Product images and media excluded to keep repository light)
+app/public/wp-content/uploads/*
+!app/public/wp-content/uploads/.gitkeep
+
+# WordPress Core & uploads cache
+app/public/wp-content/cache/
+app/public/wp-content/upgrade/
+*.tmp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini

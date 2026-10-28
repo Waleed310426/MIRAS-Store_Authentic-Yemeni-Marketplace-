@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-includes/
+Disallow: /wp-login.php
+Disallow: /?s=
+Disallow: /search
+Disallow: /cart
+Disallow: /checkout
+Disallow: /my-account
+
+Sitemap: http://miras.local/sitemap_index.xml
